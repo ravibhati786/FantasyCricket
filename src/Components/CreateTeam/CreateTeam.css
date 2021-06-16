@@ -1,0 +1,178 @@
+.Create_Team{
+    padding: 10px;
+}
+
+.createTeamHeader{
+    display: flex;
+}
+
+.createTeamHeader .header{
+    flex:70% 
+}
+
+.home-bt{
+    width: 120px;
+}
+.home-bt a{
+    text-decoration: none;
+    color: black;
+}
+
+.Create-Header{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.team-select{
+    margin-top: 15px;
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.team-select input{
+    width: 400px;
+}
+.team-select .textBoxError{
+    flex:2;
+    margin: auto;
+    padding-left: 1%;
+    color: red;
+}
+.team-select button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 150px;
+    
+}
+
+.players{
+    height: 30%;
+    padding: 0 1%;
+    margin: 0 4%;
+    border: 1px solid grey;   
+}
+
+.players_headers{
+    display: flex;
+    padding: 0px 20px;
+}
+
+.players_headers h5{
+    flex: 0 0 23%
+}
+
+.players_all{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: scroll;
+}
+.players_row{
+    display: flex;
+    font-size: 24px;
+    border:1px solid black;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+}
+
+.players_row .sr_no{
+    flex:1;
+}
+
+.player_logo img{
+    height: 30px;
+}
+
+.player_logo{
+    flex:1;
+}
+
+.player_name{
+    flex:4  ;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cap_vcap {
+    flex: 2;
+}
+
+.cap_vcap div{
+    display: flex;
+}
+
+.is_selected{
+    flex:1;
+}
+.is_selected div{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.is_selected .add img{
+    height: 30px;
+}
+
+.selected{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+}
+
+.is_selected .selected img{
+    height: 30px;
+}
+
+.captain{
+    padding: 4% 7%;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.captain-h{
+    padding: 4% 7%;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    background-color: black;
+}
+
+.vicecaptain{
+    padding: 4% 4%;
+    margin: 0px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.vicecaptain-h{
+    padding: 4% 4%;
+    margin: 0px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    background-color: black;
+}
+
+.error
+{
+    color: red;
+    flex: 4 !important;
+    align-self: flex-end;
+    text-align: right;
+}
+
+
+.countAnalysis
+{
+    padding: 2% 4%;
+}

@@ -1,0 +1,37 @@
+.TeamGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+
+.Team_Box{
+    flex: 0 0 25%;
+    
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.Team_Box h4{
+    flex:20%;
+    margin:0px;
+    margin-bottom: 20px;
+}
+
+.Team_Box hr {
+    border: 0;
+    height: 1px;
+    flex: 20%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.img-div {
+    text-align: right;
+}
+
+.Team_Box img{
+    height: 20px;
+}

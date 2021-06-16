@@ -1,0 +1,35 @@
+.Home{
+    padding: 10px;
+}
+.Home-Header{
+    height: 20%;
+    display: flex;
+    margin-bottom: 2%;
+}
+.Home-Header .Header-Logo{
+    flex: 80%;
+}
+.Home-Header button{
+    flex: 10%;
+}
+
+.MyTeam-Header{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.MyTeam-Header h3{
+    flex-grow: 9;
+    margin:5px;
+}
+.MyTeam-Header input{
+    flex-grow: 1;
+    height: inherit;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.create-team-bt a{
+    text-decoration: none;
+    color: black;
+}
